@@ -16,12 +16,28 @@ To get started, follow these steps:
 
 ## Usage
 
+**Note**: Depending on your specific version and configuration of Python, you may need to run the program using either of the following commands:
+
+```bash
+python
+```
+
+or
+
+```bash
+py
+```
+
+instead of `python3`.
+
 ### Running the Server
 
 1. Start the server by running the following command:
    ```bash
    python3 chat_server.py --name=server --port=9988
    ```
+
+
 
 ### Running Client Instances
 
@@ -34,4 +50,4 @@ To get started, follow these steps:
 
 ## Important Note
 
-Please ensure that you are using Python 3.11.5 or a compatible version. Running the application on a different Python version may result in compatibility issues.
+Please ensure that you are using Python 3.11.5 or a compatible version. Running the application on a different Python version may result in compatibility issues. This application is also developed on Mac OS, running this application on windows or other operating systems may result in different terminal bahaviour, it is best to use the terminal from Mac OS if possible. 
